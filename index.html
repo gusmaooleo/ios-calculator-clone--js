@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>calculator</title>
+</head>
+<body>
+
+    <main>
+
+        <div id="container_colorPalette">    
+        </div>
+
+        <div id="container">
+
+            <div class="calculator__square">
+
+                <div id="display">
+                    <p id="operation">0</p>
+                </div>
+
+                <div id="numbers__container">
+
+                    <div class="line">
+                        <div class="type_1" id="clear"><p class="write__pattern1 clear">AC</p></div>
+                        <div class="type_1" id="negt"><p class="write__pattern1"> +/- </p></div>
+                        <div class="type_1" id="perc"><p class="write__pattern1">%</p></div>
+                        <div class="type_2" id="divs">÷</div>
+                    </div>
+                    <div class="line">
+                        <div class="type_3 number" id="n7"><p class="write__pattern">7</p></div>
+                        <div class="type_3 number" id="n8"><p class="write__pattern">8</p></div>
+                        <div class="type_3 number" id="n9"><p class="write__pattern">9</p></div>
+                        <div class="type_2" id="mult">×</div>
+                    </div>
+                    <div class="line">
+                        <div class="type_3 number" id="n4"><p class="write__pattern">4</p></div>
+                        <div class="type_3 number" id="n5"><p class="write__pattern">5</p></div>
+                        <div class="type_3 number" id="n6"><p class="write__pattern">6</p></div>
+                        <div class="type_2" id="subt">-</div>
+                    </div>
+                    <div class="line">
+                        <div class="type_3 number" id="n1"><p class="write__pattern">1</p></div>
+                        <div class="type_3 number" id="n2"><p class="write__pattern">2</p></div>
+                        <div class="type_3 number" id="n3"><p class="write__pattern">3</p></div>
+                        <div class="type_2" id="plus">+</div>
+                    </div>
+                    <div class="line">
+                        <div class="type_4 number" id="n0"><p class="write__pattern">0</p></div>
+                        <div class="type_3" id="cmma"><p class="write__pattern">,</p></div>
+                        <div class="type_2" id="eqls"><p class="write__pattern">=</p></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--<text(gitLink)>-->
+        <div id="text__container">
+            <a id="anchor" href="javascript:tab();">
+                <img src="gitIcon.svg">
+            </a>
+        </div>
+        <script>
+            function tab() {
+                window.open("https://github.com/gusmaooleo")
+            }
+        </script>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/source.js"></script>
+
+</html>
