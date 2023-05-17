@@ -342,6 +342,7 @@ clear.addEventListener("click", () => {
     clearAC.innerHTML = 'AC';
     result.innerHTML = '0';
     formattedNumber = '';
+    getComma = '';
     verifyComma = true
 
     len.splice(0);
